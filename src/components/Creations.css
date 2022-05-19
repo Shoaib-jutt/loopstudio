@@ -1,0 +1,95 @@
+.creations-headings{
+    display: flex;
+    margin-top: 180px;
+    
+    
+}
+#our{
+    color:black;
+}
+h3{
+   
+    position: relative;
+    left: 200px;
+    font-size: 40px;
+
+}
+.btn{
+    width:9rem;
+    position: relative;
+    left:750px;
+    
+}
+.btn:hover{
+background-color: black;    
+}
+img{
+    margin:10px 8px;
+}
+.image:hover{
+    background-color:gainsboro;
+}
+.footer{
+
+    height:160px;
+   width:100%;
+    
+    
+    
+    background-color:black;
+}
+h5{
+    position: relative;
+    left:100px;
+    top:40px;
+}
+ul {
+   display :flex; 
+   margin-left: 70px;
+   margin-top: 50px;
+  
+}
+ul li {
+    list-style: none;
+    padding: 0px 10px;
+}
+ul li:hover{
+    
+    border-bottom: 2px solid white;
+}
+
+@media (max-width:1400px) {
+    .creations-headings{
+        display: flex;
+        margin-top: 180px;
+        width:1000px;
+        
+    }
+    .btn{
+        width:9rem;
+        position: relative;
+        left:400px;
+        
+    }
+    img{
+         position: relative;
+        left :150px; 
+      
+        
+     } 
+ }
+
+ @media (max-width:1200px) {
+
+    .footer{
+        height: 450px;
+       
+    }
+     
+ }
+ @media (max-width:800px) {
+     .footer{
+         height: 400px;
+         width: 1000px;
+     }
+ }
